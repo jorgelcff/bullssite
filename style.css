@@ -100,6 +100,202 @@
     background: none;
 }
 
+/*--quem-somos--*/
+.quemsomos body
+{
+  background-color:#f2f2f2;
+  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+*
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.quemsomos h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+.quemsomos p
+{
+  font-size:12px;
+}
+
+.quemsomos .center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.quemsomos .property-card
+{
+  height: 360px;
+  width: 250px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:25px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #252525;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #252525;
+
+}
+
+
+.quemsomos .property-ailyna
+{
+  height: 250px;
+  width: 250px;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url(image/Beatrix\ Ailyna.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.quemsomos .property-lins
+{
+  height:250px;
+  width:250px;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url(image/Gabriel\ Lins.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+.quemsomos .property-jorge
+{
+  height:250px;
+  width:250px;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url(image/Jorge\ Freitas.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+.quemsomos .property-vitor
+{
+  height:250px;
+  width:250px;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url(image/Vitor\ Câmara.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+.quemsomos .property-jaques
+{
+  height:250px;
+  width:250px;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url(image/Yasmim\ Jaques.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+/* Bottom Card Section */
+
+.quemsomos .property-description
+{
+  background-color: #FAFAFC;
+  height:10em;
+  width:16em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Property Cards Hover States */
+
+.quemsomos .property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.quemsomos .property-card:hover .property-image
+{
+  height:18em;
+}
+
+.quemsomos .property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.quemsomos .property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
+
+
+.quemsomos .property-image-title
+{
+text-align:center;
+position:Relative;
+top:90%;
+opacity:0;
+transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+color:white;
+font-size:100;
+}
+
+.quemsomos .property-card:hover .property-image-title
+{
+opacity:1;
+}
+
+
 /*--Menu--Mobile--*/
 .menu-btn{
     color: #fff;
