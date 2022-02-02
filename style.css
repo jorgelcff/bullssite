@@ -82,7 +82,7 @@
 }
 .home .home-content .text-3 span{
     color: #f6ce6c;
-    font-weight: 600;
+    font-weight: 400;
     
 }
 .home .home-content a {
@@ -121,6 +121,14 @@
   font-weight:700;
 }
 
+.quemsomos h6
+{
+  margin:0px;
+  font-size:1.1em;
+  font-weight:400;
+  color: #fff;
+}
+
 .quemsomos p
 {
   font-size:12px;
@@ -152,17 +160,18 @@
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border-radius:25px;
+  border-radius:30px;
   overflow:hidden;
   -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #252525;
   box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #252525;
+  font-family: 'Raleway', sans-serif;
 
 }
 
 
 .quemsomos .property-ailyna
 {
-  height: 250px;
+  height: 360px;
   width: 250px;
   padding:1em 2em;
   position:Absolute;
@@ -170,14 +179,14 @@
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url(image/Beatrix\ Ailyna.jpg);
+  background-image:linear-gradient(to bottom, transparent 30%, #252525 95%), url(image/Beatrix\ Ailyna.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 
 .quemsomos .property-lins
 {
-  height:250px;
+  height:360px;
   width:250px;
   padding:1em 2em;
   position:Absolute;
@@ -185,7 +194,7 @@
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url(image/Gabriel\ Lins.png);
+  background-image:linear-gradient(to bottom, transparent 30%, #252525 95%), url(image/Gabriel\ Lins.png);
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -193,7 +202,7 @@
 
 .quemsomos .property-jorge
 {
-  height:250px;
+  height:360px;
   width:250px;
   padding:1em 2em;
   position:Absolute;
@@ -201,7 +210,7 @@
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url(image/Jorge\ Freitas.png);
+  background-image:linear-gradient(to bottom, transparent 30%, #252525 95%), url(image/Jorge\ Freitas.png);
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -209,7 +218,7 @@
 
 .quemsomos .property-vitor
 {
-  height:250px;
+  height:360px;
   width:250px;
   padding:1em 2em;
   position:Absolute;
@@ -217,7 +226,7 @@
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url(image/Vitor\ Câmara.png);
+  background-image:linear-gradient(to bottom, transparent 30%, #252525 95%), url(image/Vitor\ Câmara.png);
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -225,7 +234,7 @@
 
 .quemsomos .property-jaques
 {
-  height:250px;
+  height:360px;
   width:250px;
   padding:1em 2em;
   position:Absolute;
@@ -233,7 +242,7 @@
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url(image/Yasmim\ Jaques.png);
+  background-image:linear-gradient(to bottom, transparent 30%, #252525 95%), url(image/Yasmim\ Jaques.png);
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -243,56 +252,56 @@
 
 .quemsomos .property-description
 {
-  background-color: #FAFAFC;
-  height:10em;
+  background-color: transparent;
+  height:0%;
   width:16em;
   position:absolute;
   bottom:0em;
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  padding: 0.5em 1em;
   text-align:center;
+}
+.quemsomos .property-description p
+{
+  padding-top: 5px;
+  color: #fff;
+}
+
+.quemsomos .property-description h5
+{
+  padding-top: 10px;
+  color: #f6ce6c;
 }
 
 /* Property Cards Hover States */
 
 .quemsomos .property-card:hover .property-description
 {
-  height:0em;
-  padding:0px 1em;
+  padding: 0.5em 1em;
+  height:10em;
+  padding:1em;
 }
 .quemsomos .property-card:hover .property-image
 {
   height:18em;
 }
 
-.quemsomos .property-card:hover .property-social-icons
-{
-  background-color:white;
-}
-
-.quemsomos .property-card:hover .property-social-icons:hover
-{
-  background-color:blue;
-  cursor:pointer;
-}
-
-
 .quemsomos .property-image-title
 {
 text-align:center;
 position:Relative;
-top:90%;
-opacity:0;
+top:85%;
+opacity:1;
 transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
-color:white;
+color:#f6ce6c;
 font-size:100;
+font-family: 'Raleway', sans-serif;
 }
 
 .quemsomos .property-card:hover .property-image-title
 {
-opacity:1;
+opacity:0;
 }
 
 
