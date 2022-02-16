@@ -13,6 +13,7 @@
 /*--navbar--inicio*/
 .navbar{
     position: fixed;
+    z-index: 1;
     width: 100%;
     background: #252525;
     padding: 25px 0;
@@ -147,6 +148,7 @@
 
 .quemsomos .property-card
 {
+  
   height: 360px;
   width: 250px;
   display:-webkit-box;
