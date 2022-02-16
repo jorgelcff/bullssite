@@ -100,6 +100,35 @@
     background: none;
 }
 
+/*--f1inschools--*/
+.f1inschools .text-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+    margin-bottom: 1%;
+}
+
+.f1inschools .text-2{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    display: flex;
+    margin-bottom: 2%;
+    
+}
+
+.f1inschools .post-it{
+    width: 25px;
+    height: 25px;
+    background-color: #F6CE6C;
+    align-self: center;
+    margin-right: 5px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.f1inschools img{
+    size-adjust: 60%;
+}
+
 /*--quem-somos--*/
 .quemsomos body
 {
@@ -306,7 +335,7 @@ opacity:0;
 
 .bullseducation{
     display: flex;
-    width: 80%;
+    /*width: 80%;*/
     position: relative;
 }
 
@@ -333,6 +362,9 @@ opacity:0;
     margin-right: 5px;
     box-shadow: 0px 4px 4px 0px #00000040;
 
+}
+.bullseducation img{
+    size-adjust: 60%;
 }
 
 
