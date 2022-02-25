@@ -117,6 +117,11 @@
     
 }
 
+.f1inschools ul.lista{
+    padding-left: 20px;
+}
+
+
 .f1inschools .post-it{
     width: 25px;
     height: 25px;
@@ -144,6 +149,16 @@
   box-sizing: border-box;
 }
 
+.quemsomos h2
+{
+ font-family: 'Raleway', sans-serif;
+ margin-top: 5%;
+ font-size: 12em;
+ font-weight: 900;
+ display: flex;
+ justify-content: center;
+ color: #252525;
+}
 .quemsomos h5
 {
   margin:0px;
@@ -166,7 +181,7 @@
 
 .quemsomos .center
 {
-  height:100vh;
+  height:60vh;
   width:100%;
   display: flex;
   justify-content: space-evenly;
@@ -354,6 +369,10 @@ opacity:0;
     display: flex;
     margin-bottom: 2%;
     
+}
+
+.bullseducation  ul.lista{
+    padding-left: 20px;
 }
 
 .bullseducation .post-it{
