@@ -396,6 +396,22 @@ opacity:0;
     cursor: pointer;
     display: none;
 }
+/*rdapé*/
+.footer{
+    background-color: #252525;
+    align-content: center;
+}
+.footer {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    
+}
+.textofooter{
+    align-content: center;
+ 
+}
 
 /*--Responsivo--*/
 @media (max-width: 1104px){
