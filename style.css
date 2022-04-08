@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;900&family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@
 /*--navbar--inicio*/
 .navbar{
     position: fixed;
+    z-index: 1;
     width: 100%;
     background: #252525;
     padding: 25px 0;
@@ -100,6 +102,294 @@
     background: none;
 }
 
+/*--f1inschools--*/
+.f1inschools{
+    display: flex; 
+    height: 100vh;
+    color: #252525;
+    min-height: 500px;
+    font-family: 'Inter', sans-serif;
+}
+.f1inschools .text-1{
+    font-size:40px;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+
+.f1inschools .text-2{
+    display: flex;
+    font-size:25px;
+    font-weight: 700;
+    margin-bottom: 2%;
+    
+}
+
+.f1inschools .text-3{
+    font-weight: 400;
+}
+
+.f1inschools ul.lista{
+    padding-left: 20px;
+}
+
+
+.f1inschools .post-it{
+    width: 25px;
+    height: 25px;
+    background-color: #F6CE6C;
+    align-self: center;
+    margin-right: 5px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.f1inschools img{
+    size-adjust: 60%;
+}
+
+/*--quem-somos--*/
+
+.quemsomos body
+{
+  background-color:#f2f2f2;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+*
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.quemsomos h2
+{
+ font-family: 'Raleway', sans-serif;
+ font-size: 15vw;
+ font-weight: 900;
+ display: flex;
+ justify-content: center;
+ color: #252525;
+}
+.quemsomos h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+.quemsomos h6
+{
+  margin:0px;
+  font-size:1.1em;
+  font-weight:400;
+  color: #fff;
+}
+
+.quemsomos p
+{
+  font-size:12px;
+}
+
+.quemsomos .center
+{
+  height:60vh;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.quemsomos .property-card
+{
+  
+  height: 360px;
+  width: 250px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:30px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #252525;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #252525;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+.quemsomos .property-lins
+{
+  height: 100%;
+  width:100%;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:linear-gradient(to bottom, transparent 30%, #252525 95%), url(image/Gabriel\ Lins.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+.quemsomos .property-jorge
+{
+  height:100%;
+  width:100%;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:linear-gradient(to bottom, transparent 30%, #252525 95%), url(image/Jorge\ Freitas.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+.quemsomos .property-vitor
+{
+  height:100%;
+  width:100%;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:linear-gradient(to bottom, transparent 30%, #252525 95%), url(image/Vitor\ Câmara.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+.quemsomos .property-jaques
+{
+  height:100%;
+  width:100%;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:linear-gradient(to bottom, transparent 30%, #252525 95%), url(image/Yasmim\ Jaques.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+/* Bottom Card Section */
+
+.quemsomos .property-description
+{
+  background-color: transparent;
+  height:0%;
+  width:16em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align:center;
+}
+.quemsomos .property-description p
+{
+  padding-top: 5px;
+  color: #fff;
+}
+
+.quemsomos .property-description h5
+{
+  padding-top: 10px;
+  color: #f6ce6c;
+}
+
+/* Property Cards Hover States */
+
+.quemsomos .property-card:hover .property-description
+{
+  padding: 0.5em 1em;
+  height:10em;
+  padding:1em;
+}
+.quemsomos .property-card:hover .property-image
+{
+  height:18em;
+}
+
+.quemsomos .property-image-title
+{
+text-align:center;
+position:Relative;
+top:85%;
+opacity:1;
+transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+color:#f6ce6c;
+font-size:100;
+font-family: 'Raleway', sans-serif;
+}
+
+.quemsomos .property-card:hover .property-image-title
+{
+opacity:0;
+}
+
+.bullseducation{
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.bullseducation .text-1{
+    font-family: 'Inter', sans-serif;
+    font-size:40px;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+
+.bullseducation .text-2{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size:25px;
+    font-weight: 700;
+    margin-bottom: 2%;
+    
+}
+.bullseducation .text-3{
+    font-family: 'Inter', sans-serif;
+    
+}
+.bullseducation  ul.lista{
+    padding-left: 20px;
+}
+
+.bullseducation .post-it{
+    width: 25px;
+    height: 25px;
+    background-color: #F6CE6C;
+    align-self: center;
+    margin-right: 5px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.bullseducation img{
+    size-adjust: 60%;
+}
+
 /*--Menu--Mobile--*/
 .menu-btn{
     color: #fff;
@@ -107,13 +397,106 @@
     cursor: pointer;
     display: none;
 }
+/*rodapé*/
+.footer{
+    background-color: #252525;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+.footer .logofooter{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footernav{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.footer .navfooter li{
+    list-style: none;
+    display: inline-block;
+}
+
+.footer .navfooter li a{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+.footer .navfooter li a:hover{
+    color: #F6CE6C;
+    transition: color 0.3s ease;
+}
+
+.footer .footerlinks li{
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.footer .footerlinks li img{
+    size: 150px;
+}
+
+
 
 /*--Responsivo--*/
+@media (max-width: 1320px){
+    .home .home-content .text-1{
+        font-size: 70px;
+    }
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 25px;
+    }
+    .home{
+        display: flex;
+        background: url(image/F1_2021.png) no-repeat 600px; 
+        height: 100vh;
+        color: #252525;
+        min-height: 500px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+
+}
 @media (max-width: 1104px){
     .navbar .max-width{
         margin-left: 0;
 
     }
+    .home{
+        display: flex;
+        background: transparent; 
+        height: 100vh;
+        color: #252525;
+        min-height: 500px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .quemsomos .property-card{
+        height: 300px;
+        width: 208px;
+    }
+    .quemsomos h5{
+        font-size: 1.0em;
+    }
+
 }
 @media (max-width: 991px){
     .navbar .max-width{
@@ -149,7 +532,7 @@
     }
     .navbar .menu li a{
         display: inline-block;
-        margin: 20px 0;
+        margin: 20px 0;  
         font-size: 25px;
     }
     .home .home-content .text-1{
@@ -163,6 +546,7 @@
         font-size: 23px;
         padding: 10px 30px;
     }
+    
 }
 @media (max-width: 690px){
     .home .home-content .text-1{
